@@ -1,0 +1,15 @@
+//8.summing up 1-2+3-4+5......n
+#include <stdio.h>
+int main()
+{
+    int n,i=1,s=1,sum=0;
+    printf("\nEnter a number:");
+    scanf("%d", &n);
+    {
+    sum=sum+(s*i);
+    i=i+1;
+    s=-s;
+    }
+    printf("sum=%d",sum);
+    return 0;
+}
