@@ -1,0 +1,10 @@
+//20.write a program to convert octal to decimal
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter an octal number:");
+    scanf("%o",&n);
+     printf("Decimal equivalent= %d",n);
+     return 0;
+}
