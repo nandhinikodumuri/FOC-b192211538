@@ -1,0 +1,14 @@
+//2.Genertion of number series 1,2,3,4,5,6,7,8,.....,n
+#include <stdio.h>
+int main()
+{
+   int n,a=1;
+   printf("\nEnter a number:");
+   scanf("%d",&n);
+   while(a<=n)
+   {
+   printf("%d ",a);
+   a=a++;
+   }
+   return 0;
+}
