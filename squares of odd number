@@ -1,0 +1,14 @@
+//9.summing up squares of odd number
+#include <stdio.h>
+int main()
+{
+    int a=5,sum=0,n;
+    printf("\n Enter a number:");
+    scanf("%d",&n);
+    {
+        sum=sum+(a*a);
+    a=a+5;
+    }
+    printf("\n sum=%d",sum);
+    return 0;
+}
