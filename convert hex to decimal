@@ -1,0 +1,10 @@
+//19. write a program to convert hex to decimal
+#include <stdio.h>
+int main()
+{
+   int n;
+   printf("Enter a hexdecimal number:");
+   scanf("%x",&n);
+   printf("Decimal equivalent= %d",n);
+   return 0;
+}
